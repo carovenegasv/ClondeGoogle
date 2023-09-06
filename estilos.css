@@ -1,0 +1,40 @@
+/*así se escribe un comentario*/
+
+body{background-color:#fffbcc;
+
+
+    color: #123435;
+   
+    font-family: 'Figtree', sans-serif;}
+
+
+h1{color:#123435}
+
+h2{color:#123435}
+
+h3,p{color:#ef6f9a}
+
+.img1{width: 300px;
+     height: 200px;
+     border-style: solid;
+     border-color: #123435;
+     border-width: 5px;
+     padding: 3px;
+     margin: 8px;
+     margin-left: 50px;
+}
+
+.img2{width: 300px; 
+    height: 200px;
+    border-style:solid;
+    border-color:#123435;
+    border-width: 5px;
+    padding: 3px;
+    margin: 8px;
+    margin-left: 50px;
+
+}
+
+small{color:#123435;
+}
+

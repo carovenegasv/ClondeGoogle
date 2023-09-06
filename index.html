@@ -1,137 +1,70 @@
 <!DOCTYPE html>
-<!--Declaración para que el navegador sepa que es un archivo HTML-->
-
+<html lang="en">
 <head>
-    <title>Huskies Cachorros</title>
-    <meta charset="utf-8">
-    <!--esto se hizo al final para enlasar css-->
-    <link href="estilos.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--conexion con el css-->
+<link href="estilos.css"
+rel="stylesheet">
 
-    <!--Esto se puso ya estando en clase de css para insetar tipografía de google fonts-->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree&display=swap" rel="stylesheet">
-
+    <title>Google</title>
 </head>
-
 <body>
- <h1>Página de Huskies Cachorros</h1>
-<h3>Imágenes de cachorros</h3>
-
-<!--Imagen desde la Web-->
-
-<img class="img1" src="https://images.hola.com/imagenes/mascotas/20201005176621/perro-husky-raza-perro-lobo/0-874-229/husky-t.jpg">
-
-<img class="img1" src="https://www.lifeder.com/wp-content/uploads/2019/03/tipos-de-husky.jpg">
-
-<img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBULu-ddqEXOf8csGnobGdACb9pTi8JBeF1Q&usqp=CAU">
- <h3> No es ningún secreto que las mascotas pueden contribuir a su felicidad. Los estudios muestran que los perros reducen el estrés, la ansiedad y la depresión, alivian la soledad, fomentan el ejercicio y mejoran la salud en general. </h3>
-
- 
- <!--Imagen desde computadora-->
-<img class="img2" src="imagenes/pereza.jpg">
-<img class="img2" src="imagenes/lenguita.jpg">
-<img class="img2" src="imagenes/pando.jpg">
+    <header>
+        <nav>
+            <ul class="nav-right-section">
+                <li><a href="https://mail.google.com/mail/?authuser=0&ogbl">Gmail</a></li>
+                <li><a href="https://www.google.com/imghp?hl=es-419&authuser=0&ogbl">Imágenes</a></li>
+                <li class="menu-icon"><a href="#"></a></li>
+                <li><img src="https://lh3.googleusercontent.com/ogw/AGvuzYbylluR3X0b8BZbCkJ3eQtPtI9XdH1DPKnfmimFshw=s32-c-mo"></li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <section class="main-logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+        </section>
 
 
-<!--enlaces externos-->
-<p> Si quieres ver más imágenes de la huskie más linda del mundo <a href="https://www.instagram.com/pandora_lahusky/" target="blank">da clic en este enlace.</a></p>
 
-<!--Listas-->
+<!--Barra de búsqueda-->
+<section class="main-input">
+    <div class="main-input-container">
+        <span class="search-icon"></span>
+        <input type="text">
+        <a class="micro-icon" href=""></a>
+        <a class="cam-icon" href=""></a>
+    </div>
+</section>
 
-<!--Listas ordenas-->
+       <!--Botones--> 
+        <section class="main-buttons">
+            <div><button>Buscar con Google</button></div>
+            <div><button>Voy a tener suerte</button></div>
+        </section>
 
+    </main>
 
-<h3>Listas de colores de los huskies</h3>
-<p> Tres principales cualidades de los <strong>huskies</strong></p>
+    <footer>
+        <!--Lista izquierda-->
+<ul class="footer-left">
+    <li><a href="https://about.google/?utm_source=google-CO&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a></li>
+   
+    <li><a href="https://www.google.com/intl/es-419_co/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a></li>
 
-<ol>
-<!--Ordered List-->
-<li>Son antialérgicos</li>
-<li>Son muy sociales y disfrutan de estar con niños</li>
-<li>Son muy vocales, prácticamente hablan</li>
-</ol>
+    <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Negocios</a></li>
 
-<!--Lista desordenada-->
-<p> 3 cosas que debes tener en cuanta antes de <em>considerar</em> tener un huskie</p>
-
-<ul>
-    <!--unordered list-->
-    <li>Tienen doble capa de pelo, así que siempre habrá pelos en tu casa por todos lados</li>
-
-    <li>Son muy escapistas</li>
-
-    <li>Tienen demasiada energía y necesitan hacer mucho ejercicio</li>
-
+    <li><a href="https://google.com/search/howsearchworks/?fg=1">Cómo funciona la busqueda</a></li>
 </ul>
 
-<!--Formularios-->
-<form>
 
-<h3>Formularios</h3>
-<!--Forms de botones de radio-->
+<!--Lista derecha-->
+<ul class="footer-right">
+    <li><a href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a></li>
+    <li><a href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a></li>
+    <li><a href="#">Preferencias</a></li>
 
-<p>¿Tu Huskie es cachorro o es adulto?</p>
-
-<Label>
-<input id="Cachorro" 
-type="radio" 
-value="Cachorro"
-name="Cachorro-Adulto"checked>Cachorro
-</Label>
-<br>
-<Label>
-<input id="Adulto"
-type="radio"
-value="Adulto"
-name="Cachorro-Adulto">Adulto
-
-
-</Label>
-
-<!--Forms with checks-->
-
-<p>¿Qué personalidad tiene tu huskie?</p>
-
-<Label>
-<input  id="Escapista"
-type="checkbox"
-value="Escapista"
-name="personalidad"checked>Escapista
-
-</Label>
-
-<br>
-
-<Label>
-    <input  id="Escandaloso"
-    type="checkbox"
-    value="Escadaloso"
-    name="personalidad">Escandaloso
-</Label>
-
-<br>
-
-<Label>
-    <input  id="Miedoso"
-    type="checkbox"
-    value="Miedoso"
-    name="personalidad">Miedoso
-</Label>
-
-
-
-
-
-</form>
-
-
-
+</ul>
+    </footer>
 </body>
-
-<footer>
-
-<p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="black"> Tecnolochicas PRO por <strong>Carolina Venegas Vargas.</strong> </a></small> </p>
-
-</footer>
+</html>

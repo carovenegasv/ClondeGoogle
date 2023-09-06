@@ -27,6 +27,6 @@ Contiene las siguientes secciones:
 ## 3.Objetivo del proyecto
 Aprender a utilizar la etiquetas estándar de HTML5 y CSS3
 
-##Link a Demo
+## Link a Demo
 Aquí puedes ver mi proyecto terminado:[Clonación de Google](.)
 
